@@ -1,0 +1,15 @@
+library(feather)
+library(leafem)
+library(leaflet)
+library(raster)
+library(rgdal)
+library(shiny)
+library(shinyWidgets)
+library(sf)
+library(tidyverse)
+
+source('/Users/kyledoherty/mpgPostdoc/projects/range_bio/app/global.R')
+source('/Users/kyledoherty/mpgPostdoc/projects/range_bio/app/ui.R')
+source('/Users/kyledoherty/mpgPostdoc/projects/range_bio/app/server.R')
+
+shinyApp(ui = ui, server = server)
