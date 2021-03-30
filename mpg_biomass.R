@@ -8,8 +8,8 @@ library(shinyWidgets)
 library(sf)
 library(tidyverse)
 
-source('/Users/kyledoherty/mpgPostdoc/projects/range_bio/app/global.R')
-source('/Users/kyledoherty/mpgPostdoc/projects/range_bio/app/ui.R')
-source('/Users/kyledoherty/mpgPostdoc/projects/range_bio/app/server.R')
+source('https://raw.githubusercontent.com/mosscoder/mpg_herbaceous_biomass/main/gloabl.R')
+source('https://raw.githubusercontent.com/mosscoder/mpg_herbaceous_biomass/main/ui.R')
+source('https://raw.githubusercontent.com/mosscoder/mpg_herbaceous_biomass/main/server.R')
 
 shinyApp(ui = ui, server = server)
